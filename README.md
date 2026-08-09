@@ -2,13 +2,6 @@
 
 《World Dai Star》官方 MasterData 下载与更新工具。
 
-该项目完全独立于 YmstServer，只负责：
-
-- 获取官方环境和 MasterData 清单；
-- 下载并更新 `mastermemory.db`；
-- 使用 `data/table.json` 导出 MasterData JSON；
-- 保存本地同步状态和发布元数据。
-
 ## 项目结构
 
 ```text
