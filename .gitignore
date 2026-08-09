@@ -4,4 +4,6 @@ artifacts/
 output/
 state.json
 *.user
-
+.idea
+bin
+.git

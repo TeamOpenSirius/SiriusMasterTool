@@ -1,4 +1,19 @@
-<Project>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>Sirius.MasterTool</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MessagePack" Version="3.1.4" />
+    <PackageReference Include="MessagePackAnalyzer" Version="3.1.4" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\table.json" Link="data\table.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
   <PropertyGroup>
     <DefaultItemExcludes>$(DefaultItemExcludes);artifacts\**</DefaultItemExcludes>
   </PropertyGroup>
